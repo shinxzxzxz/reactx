@@ -43,7 +43,7 @@ const Request = () => {
                                 </Col>
                                 <Col>
                                     <Alert variant="light">
-                                        <Statistic.Graph type="bar" label="Philippine Heart Center" actions={false} realtime={true} transparent={true} api="api/c/bleed/bloodbank?type=Philippine Health Center" />
+                                        <Statistic.Graph type="bar" label="Philippine Heart Center" actions={false} realtime={true} transparent={true} api="api/c/bleed/bloodbank?type=Philippine Heart Center" />
                                     </Alert>
                                 </Col>
                                 <Col>

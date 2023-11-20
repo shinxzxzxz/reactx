@@ -11,7 +11,7 @@ const AuthContext = React.createContext(null);
 const AuthProvider = ({ children }) => {
 
     const navigate = useNavigate();
-    const domain = "https://cho-blood-info-api.vercel.app/";
+    const domain = "http://localhost:8080/";
     const location = window.location;
     const pathname = location.pathname;
     const audience = pathname.split("/")[1].toString().toLowerCase();
